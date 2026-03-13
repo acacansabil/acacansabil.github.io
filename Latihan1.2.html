@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Biodataku</title>
+</head>
+
+<body>
+
+<div style="background-color: lightblue; text-align: center;">
+    <h1>BIODATAKU</h1>
+</div>
+
+<div style="background-color: lightyellow;">
+
+    <p>
+        <b style="color:blue;">Nama:</b> 
+        <span style="color:red;">Nama</span> 
+        <span style="color:green;">Mahasiswa</span>
+    </p>
+
+    <p>
+        <b style="color:purple;">NPM:</b> 
+        <font color="brown">1234567</font>
+    </p>
+
+    <p>
+        <b style="color:darkgreen;">Usia:</b> 
+        <font color="orange">20 Tahun</font>
+    </p>
+
+</div>
+
+</body>
+</html>
