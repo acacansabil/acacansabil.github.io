@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f1e6; 
+}
+
+.header {
+    background-color: #1e3a5f; 
+    color: #f5f1e6;
+    padding: 20px;
+}
+
+.header img {
+    width: 80px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 3px solid #d2b48c; 
+}
+
+.header-text {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+
+.menu {
+    background-color: #0d0d0d; 
+    height: 100vh;
+    color: #f5f1e6;
+    padding: 20px;
+}
+
+.menu h2 {
+    color: #d2b48c; 
+}
+
+.menu a {
+    display: block;
+    color: #f5f1e6;
+    margin: 10px 0;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #d2b48c;
+    padding-left: 5px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.box {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #1e3a5f;
+    transition: 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.01);
+}
+
+.grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 300px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    border-top: 5px solid #1e3a5f;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card ul {
+    padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background-color: #1e3a5f;
+    color: #f5f1e6;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+a {
+    color: #1e3a5f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #d2b48c;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+        flex-direction: column;
+    }
+}
